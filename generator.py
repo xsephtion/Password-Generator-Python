@@ -4,10 +4,9 @@ strings_a = "abcdefghijklmnopqrstuvwxyz"
 strings_n = "0123456789"
 strings_s = "-|@.,?/!~#%^&*()[]\=*"
 
-
 def pass_gen(pw_length):
     pw = []
-    if pw_length > 8:
+    if pw_length >= 8:
         for i in range(0, pw_length):
             v = randint(0,2)
             if(v == 0):
@@ -26,12 +25,6 @@ def pass_gen(pw_length):
         print("Password Length Must be Greater than 8")
     return ''.join(pw)
 
-
-
 if __name__ == "__main__":
     length_pw = sys.argv[1]
     print(pass_gen(int(length_pw)))
-
-
-
-            
