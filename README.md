@@ -1,6 +1,6 @@
 Basic Password Generator using Python
 
-Code is self explanatory no need to ask
+Code is self explanatory no need to ask (applies to veteran programmers only)
 
 command example:
 
